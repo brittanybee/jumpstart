@@ -22,11 +22,34 @@
   <img src="./Resources/images/logo.png" class="navbar-brand navbar-right navbar-collapse">
 </nav>
 
-<div class="jumbotron jumbotron-bike">
-  <div class="container">
-    <h1>Get Going.</h1>
-    <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
-    <a class="btn btn-primary btn-lg" href="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-8/Jumpstart/index.html#"> Jump In</a>
+<div class="carousel">
+  <div class="jumbotron jumbotron-bike">
+    <div class="container">
+      <h1>GET GOING.</h1>
+      <p>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
+      <a class="btn btn-primary btn-lg" href="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-8/Jumpstart/index.html#"> Jump In</a>
+    </div>
+  </div>
+  <div class="jumbotron jumbotron-beer">
+    <div class="container">
+      <h1>GET THINKING.</h1>
+      <p>Meet like-minded individuals who will help fuel your creative juices.</p>
+      <a class="btn btn-primary btn-lg" href="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-8/Jumpstart/index.html#"> Jump In</a>
+    </div>
+  </div>
+  <div class="jumbotron jumbotron-flowers">
+    <div class="container">
+      <h1>GET CREATING.</h1>
+      <p>Stop overthinking projects and being putting them out into the world.</p>
+      <a class="btn btn-primary btn-lg" href="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-8/Jumpstart/index.html#"> Jump In</a>
+    </div>
+  </div>
+  <div class="jumbotron jumbotron-duffel">
+    <div class="container">
+      <h1>GET STARTED.</h1>
+      <p>What are you waiting for? Today's the day for your next big idea.</p>
+      <a class="btn btn-primary btn-lg" href="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-8/Jumpstart/index.html#"> Jump In</a>
+    </div>
   </div>
 </div>
 
@@ -109,13 +132,20 @@
       </div>
     </div>
 
-<script
-src="https://code.jquery.com/jquery-3.2.1.min.js"
-integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 <script type="text/javascript" src="resources/js/main.js"></script>
-  </body>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.carousel').slick({
+        autoplay: true,
+        autoplaySpeed: 4000,
+      });
+    });
+</script>
+
+</body>
 </html>

@@ -15,12 +15,29 @@ html{
   font-weight: bold;
 }
 
-.jumbotron {
+.jumbotron-bike {
   background-image:url(../images/jumbotron-bike.jpg);
   text-shadow: 2px 2px 1px black;
   text-align: center;
 }
 
+.jumbotron-beer{
+  background-image:url(../images/jumbotron-beer.jpg);
+  text-shadow: 2px 2px 1px black;
+  text-align: center;
+}
+
+.jumbotron-flowers{
+    background-image:url(../images/jumbotron-flowers.jpg);
+    text-shadow: 2px 2px 1px black;
+    text-align: center;
+}
+
+.jumbotron-duffel{
+  background-image:url(../images/jumbotron-duffel.jpg);
+  text-shadow: 2px 2px 1px black;
+  text-align: center;
+}
 .jumbotron h1{
   font-family: Monoton;
   font-size: 7.1rem;
